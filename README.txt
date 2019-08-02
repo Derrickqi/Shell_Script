@@ -1,19 +1,24 @@
-#sendEmailÏÂÔØµØÖ·
+#sendEmailä¸‹è½½åœ°å€
 
 wget http://caspian.dotconf.net/menu/Software/SendEmail/sendEmail-v1.56.tar.gz
 
 
 
-#sendEmail»ù±¾²ÎÊı
+#sendEmailåŸºæœ¬å‚æ•°
 
 ######################################################################
-#    -f  XXXXXXX@163.com ·¢¼şÈËÓÊÏäµØÖ·                                                                         #
-#    -t  XXXXX@qq.com  ÊÕ¼şÈËÓÊÏä                                    			          #
-#    -s  smtp.163.com  ·¢¼şÈËÓÊÏäµÄsmtp·şÎñÆ÷                         			          #
-#    -u  '±êÌâ'  ÓÊ¼şµÄÖ÷Ìâ                                          				          # 
-#    -o message-content-type=html  ÓÊ¼şÄÚÈİµÄ¸ñÊ½Îªhtml£¬Ò²¿ÉÒÔÊÇtext		          #
-#    -o message-charset=utf8  ÓÊ¼şÄÚÈİ±àÂë                           			          #
-#    -xu XXXXXXX@qq.com  ·¢¼şÈËÕËºÅ                               			          #
-#    -xp XXXXXX  ·¢¼şÈËÃÜÂë                                          			          #
-#    -m  'ÓÊ¼şÄÚÈİ'  ÓÊ¼şµÄÄÚÈİ                                      			          #
+#    -f  XXXXXXX@163.com å‘ä»¶äººé‚®ç®±åœ°å€                              
+#    -t  XXXXX@qq.com  æ”¶ä»¶äººé‚®ç®±                                  
+#    -s  smtp.163.com  å‘ä»¶äººé‚®ç®±çš„smtpæœåŠ¡å™¨                         			         
+#    -u  'æ ‡é¢˜'  é‚®ä»¶çš„ä¸»é¢˜                                          				       
+#    -o message-content-type=html  é‚®ä»¶å†…å®¹çš„æ ¼å¼ä¸ºhtmlï¼Œä¹Ÿå¯ä»¥æ˜¯text		        
+#    -o message-charset=utf8  é‚®ä»¶å†…å®¹ç¼–ç                            			        
+#    -xu XXXXXXX@qq.com  å‘ä»¶äººè´¦å·                               			        
+#    -xp XXXXXX  å‘ä»¶äººå¯†ç                                           			         
+#    -m  'é‚®ä»¶å†…å®¹'  é‚®ä»¶çš„å†…å®¹                                      			        
 ######################################################################
+
+
+#ç”¨æ³•
+
+./sendEmail.sh   é‚®ä»¶æ ‡é¢˜   é‚®å¯„å†…åŒ
