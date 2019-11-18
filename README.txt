@@ -21,4 +21,4 @@ wget http://caspian.dotconf.net/menu/Software/SendEmail/sendEmail-v1.56.tar.gz
 
 #用法
 
-./sendEmail.sh   邮件标题   邮寄内同
+./sendEmail.sh   邮件标题   邮寄内荣
