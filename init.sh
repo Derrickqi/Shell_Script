@@ -7,7 +7,7 @@ if [[ "$(whoami)" != "root" ]]; then
 fi
 
 
-echo -e "\033[31m 这个是centos7系统初始化脚本，获取更多工具及脚本请关注公众号： 波哥的IT人生  Please continue to enter or ctrl+C to cancel \033[0m"
+echo -e "\033[31m 这个是centos7系统初始化脚本  Please continue to enter or ctrl+C to cancel \033[0m"
 sleep 5
 #yum update
 yum_update(){
